@@ -1,0 +1,72 @@
+:root {
+    --color-brown: #330300;
+    --color-white: #e2caa1;
+    --color-grey : #625f5f;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+    background-color: var(--color-brown);
+    color: var(--color-white);
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 5.5rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    max-width: 550px;
+    color: var(--color-white);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 80;
+    width: 100%;
+    padding: 2rem 4rem;
+    z-index: 10;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    background: url('images/Krok.jpg');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.about-page-section {
+    align-items: flex-start;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.kočky {
+    background: url('images/kafe3.webp');
+    background-position: center right;
+    background-repeat: no-repeat;
+	background-size: 100%100%
+}
+
+.kontakty {
+    background: url('images/libuše.webp');
+    background-position: center right;
+    background-repeat: no-repeat;
+	background-size: 100%
+}
